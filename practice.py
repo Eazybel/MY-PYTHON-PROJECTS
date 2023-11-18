@@ -1,24 +1,3 @@
-def num():
-    number=put()
-    if number > 0:
-        print("its' negative")
-    elif number < 0:
-        print("its' posetive")
-
-
-def put():
-    while True:
-        try:
-            n=int(input("enter your number: "))
-            return n
-        except ValueError:
-            print("it's not a number")
-    
-    
-    
-        
-        
-num()
-        
-    
-    
+for i in range(1500,2700,1):
+    if (i%7==0 and i%5==0):
+        print(i)
